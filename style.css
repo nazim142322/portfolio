@@ -22,6 +22,10 @@ html, body{
     line-height:1.4;
     color:white;
     scroll-behavior: smooth;
+    letter-spacing: .2rem;
+}
+section{
+    scroll-margin:5rem;
 }
 .container {
     max-width: 1300px;
@@ -47,28 +51,30 @@ nav{
 nav ul {
     display:flex;
     list-style: none;
-    gap:1.5rem;
+    gap:1.8rem;
 }
 nav ul li{    
     color:white;
-    font-size:1.8rem;
+    font-size:1.8rem;    
 }
 nav ul a{
     text-decoration: none;
     transition:0.4s ease-in-out;
     padding-bottom:3px;
     border-bottom:3px solid transparent;
+    letter-spacing: .1rem;
 }
 nav ul a:hover{
     /* text-decoration:underline 3px yellow;
     text-underline-offset: 5px; */
     transition:0.4s ease-in-out;
-    border-bottom: 3px solid yellow;
+    border-bottom: 3px solid yellow;   
 }
 /* hero section */
 #hero{
     background-color: var(--dark-color);
-    padding:4rem 0;
+    padding:3rem 0;
+    min-height: 100vh;
 }
 .heroContainer{
     display: flex;
@@ -78,6 +84,7 @@ nav ul a:hover{
 }
 .heroContent{
     /* border:1px solid white; */
+    letter-spacing: .2rem;
 }
 .hi_text{
     font-size:6rem;
@@ -120,7 +127,7 @@ nav ul a:hover{
 /* project section */
 #project{
     background-color:var(--darker-color);
-    padding:5rem 0;
+    padding:3rem 0;
 }
 .projectContainer{
     display:grid;
