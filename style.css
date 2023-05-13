@@ -70,6 +70,7 @@ nav ul a:hover{
     text-underline-offset: 5px; */
     transition:0.4s ease-in-out;
     border-bottom: 3px solid yellow;   
+    cursor:pointer;
 }
 /* hero section */
 #hero{
