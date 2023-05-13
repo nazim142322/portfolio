@@ -22,10 +22,12 @@ html, body{
     line-height:1.4;
     color:white;
     scroll-behavior: smooth;
-    letter-spacing: .2rem;
 }
 section{
     scroll-margin:5rem;
+}
+a{
+ all:unset;
 }
 .container {
     max-width: 1300px;
@@ -61,8 +63,7 @@ nav ul a{
     text-decoration: none;
     transition:0.4s ease-in-out;
     padding-bottom:3px;
-    border-bottom:3px solid transparent;
-    letter-spacing: .1rem;
+    border-bottom:3px solid transparent;    
 }
 nav ul a:hover{
     /* text-decoration:underline 3px yellow;
@@ -208,7 +209,7 @@ nav ul a:hover{
     /* border:1px solid white; */
     justify-content:center;
     flex-wrap:wrap;
-    gap:2.5rem;    
+    gap:3rem;    
 }
 .topContact, .bottomContact h3{
     font-size:2.5rem;    
@@ -216,10 +217,11 @@ nav ul a:hover{
 .topContact, .bottomContact i{
     font-size:2.5rem;
 }
-.contact_way{
+.contact_way a{
     display:flex;
     gap:1rem;
     align-items:center;
+    cursor:pointer;
 }
 footer{
     background-color: var(--darker-color);
