@@ -34,13 +34,11 @@ header{
     position:sticky;
     top:0;
     z-index:50;
-
 }
 nav{
     display:flex;
     justify-content: space-between;
-    align-items:center; 
-     
+    align-items:center;     
 }
 .logo h2{
     font-size:2rem;
@@ -95,7 +93,6 @@ nav ul a:hover{
     font-size:3rem;
     font-weight: bold;
 }
-
 .heroContent h2 {
     font-size:4rem;
     text-align:center;
@@ -177,9 +174,9 @@ nav ul a:hover{
     text-align:center;
 }
 .card:hover .cardContent{         
-        transition:.6s ease-in-out;
-        transform: translateY(0px);
-        /* display:block; */
+    transition:.6s ease-in-out;
+    transform: translateY(0px);
+    /* display:block; */
 }
 /* contact section */
 #contact{
