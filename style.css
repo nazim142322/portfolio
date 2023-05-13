@@ -187,8 +187,7 @@ nav ul a:hover{
     display:grid;
     place-items: center;;
 }
-#contact .container{
-    border:1px solid white;
+#contact .container{    
     display:grid;    
     gap:4rem;
 }
@@ -257,11 +256,20 @@ footer{
     #contact .container h2{
         font-size: 4.5rem;
         font-weight:400;
-    }  
+    }   
     .topContact, .bottomContact{
+        display:flex;
+        flex-direction:column;
+        align-items:center;
         font-size:2rem;
-        font-weight:400;
-    } 
+        font-weight:400;        
+    }
+    .topContact i,.topContact h3{
+        font-size:2rem;
+    }
+    .bottomContact i, .bottomContact h3{
+        font-size:2rem;
+    }
     .card{
         max-width:100%;
     }
