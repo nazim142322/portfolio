@@ -39,7 +39,7 @@ header{
     padding:1rem; 
     position:sticky;
     top:0;
-    z-index:50;
+    z-index:50;    
 }
 nav{
     display:flex;
@@ -104,7 +104,7 @@ nav ul a:hover{
     font-size:4rem;
     text-align:center;
     overflow: hidden; /* Ensures the content is not revealed until the animation */
-    border-right: .15em solid orange; /* The typwriter cursor */
+    /*border-right: .15em solid orange;   The typwriter cursor */
     white-space: nowrap; /* Keeps the content on a single line */
     margin: 0 auto; /* Gives that scrolling effect as the typing happens */
     /* letter-spacing: .15em; Adjust as needed */
@@ -194,7 +194,7 @@ nav ul a:hover{
     background-color:var(--dark-color);    
     min-height:90vh;
     display:grid;
-    place-items: center;;
+    place-items: center;
 }
 #contact .container{    
     display:grid;    
@@ -260,10 +260,7 @@ footer{
         font-size:3rem;
         font-weight:400;
     }
-    #contact .container{
-
-    }
-    #contact .container h2{
+     #contact .container h2{
         font-size: 4.5rem;
         font-weight:400;
     }   
