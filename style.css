@@ -29,6 +29,9 @@ section{
 a{
  all:unset;
 }
+a:hover{
+    cursor:pointer
+}
 .container {
     max-width: 1300px;
     margin:0 auto;
